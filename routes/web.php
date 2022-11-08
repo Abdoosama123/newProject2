@@ -12,7 +12,22 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//
+//Route::get('/', function () {
+//    return view('site/index');
+//});
+//
+//
+Route::get('', 'AddController@index');
 
-Route::get('/', function () {
-    return view('site/index');
-});
+//class abdo{
+//
+//};
+//Route::get('/', function (){
+//    $abdo =new abdo();
+//    $abdo->id='gsjws<br/>';
+//
+//
+//    echo $abdo->id;
+////    return 'namespace' ;
+//});

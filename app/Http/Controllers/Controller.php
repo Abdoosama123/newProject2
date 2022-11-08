@@ -11,3 +11,8 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
+class abdo{
+function play(){
+    return 'hffffffff';
+}
+};
